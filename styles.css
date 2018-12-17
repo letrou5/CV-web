@@ -1,0 +1,57 @@
+h1 {
+	text-align: center;
+}
+   
+#nav {
+	text-align: center;
+	margin: 0.5em 0em 0.5em 0em;
+	padding: 1em 0em 1em 0em;
+	background-color: #FFFF88;
+}
+
+#nav li {
+	display: inline;
+	margin: 0.5em 0.5em 0.5em 0.5em;
+	padding: 0.5em 0.5em 0.5em 0.5em;
+	border-width: 1px;
+	border-color: #FF0000;
+	background-color: #FFFFEE;
+	border-style: solid;
+}
+
+#nav li:hover {
+	border-style: dotted;
+	border-width: 2px;
+}
+
+#nav .actuel {
+	border-color: lightgreen;
+	border-style: dashed;
+}
+
+#experiences dt {
+	font-weight: bold;
+}
+
+#etudes dt {
+	font-style: italic;
+}
+
+#competences .rubrique {
+	text-decoration: underline;
+}
+
+#photo {
+	display: block;
+	float: right;
+	margin-left: 1em;
+	margin-bottom: 1em;
+	max-width: 200px;
+}
+
+#photo:hover {
+	max-width: 100%;
+	transition-property: max-width;
+	transition-duration: 1s;
+	transition-timing-function: ease;
+}
